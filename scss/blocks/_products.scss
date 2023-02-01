@@ -1,0 +1,88 @@
+.products {
+    padding-top: 130px;
+    &__title {
+        font-size: 32px;
+        color: #131313;
+        font-family: 'FuturaBookC-Regular';
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    &__wrap {
+        position: relative;
+        margin-top: 25px;
+        display: grid;
+        grid-template: 1fr / 380px 380px 380px;
+        justify-content: space-between;
+        row-gap: 60px;
+        &__item {
+            position: relative;
+            width: 380px;
+            &__header {
+                border-radius: 20px;
+                background-color: #F3F5F9;
+                width: 100%;
+                height: 280px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                &__image {
+                    width: 310px;
+                    height: 230px;
+                }
+            }
+            &__info {
+                margin-top: 10px;
+                &__subtitle {
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: #828282;
+                }
+                &__name {
+                    margin-top: 5px;
+                    font-size: 18px;
+                    font-weight: 500;
+                    color: #131313;
+                    text-transform: uppercase;
+                }
+                &__btn {
+                    margin-top: 15px;
+                    position: relative;
+                    display: block;
+                    width: max-content;
+                    transition: 0.3s ease;
+                    &:hover .products__wrap__item__info__btn__contain__icon {
+                        transform: rotate(45deg);
+                    }
+                    &:hover::after {
+                        width: 0;
+                    }
+                    &::after {
+                        content: "";
+                        display: block;
+                        width: 100%;
+                        height: 2px;
+                        background-color: #131313;
+                        margin-top: 3px;
+                        transition: 0.9s ease;
+                    }
+                    &__contain {
+                        display: flex;
+                        align-items: center;
+                        &__text {
+                            font-size: 16px;
+                            color: #131313;
+                            font-weight: 600;
+                            text-transform: uppercase;
+                            margin-right: 10px;
+                        }
+                        &__icon {
+                            width: 12px;
+                            height: 12px;
+                            transition: 0.9s ease;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

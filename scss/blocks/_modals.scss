@@ -1,0 +1,155 @@
+.callback {
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    display: none;
+    &__wrap {
+        width: 650px;
+        background-color: #fff;
+        border-radius: 10px;
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        &__content {
+            padding: 40px 50px 45px 50px;
+            overflow: auto;
+        }
+        &__close {
+            width: 45px;
+            height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            right: -60px;
+            background-color: #fff;
+            border-radius: 100%;
+            cursor: pointer;
+            top: 0;
+            &__icon {
+                width: 20px;
+                height: 20px;
+            }
+        }
+        &__title {
+            font-size: 22px;
+            font-weight: 600;
+            font-family: 'FuturaBookC-Regular';
+            color: #131313;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        &__subtitle {
+            width: 445px;
+            margin: 0 auto;
+            font-size: 15px;
+            font-weight: 500;
+            color: #828282;
+            text-align: center;
+            margin-top: 10px;
+        }
+        &__form {
+            margin-top: 25px;
+            &__item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+                margin-bottom: 20px;
+                align-items: baseline;
+                &__label {
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: #131313;
+                    margin-bottom: 5px;
+                }
+                &__input {
+                    width: 100%;
+                    padding: 10px 20px;
+                    border-radius: 10px;
+                    border: 1px solid rgba(28, 28, 28, 0.2);
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: #131313;
+                    &:focus {
+                        border: 1px solid #92BEF8;
+                        outline: 1px solid #92BEF8;
+                    }
+                    &::placeholder {
+                        font-size: 16px;
+                        font-weight: 500;
+                        color: #BDBDBD;
+                    }
+                }
+            }
+            &__privacy {
+                margin-top: 25px;
+                display: flex;
+                align-items: center;
+                input[type="checkbox"] {
+                    display: none;
+                }
+                label::before {
+                    content: '';
+                    display: inline-block;
+                    width: 20px;
+                    height: 20px;
+                    background-color: #EDEDED;
+                    vertical-align: middle;
+                    margin-right: 10px;
+                    transition: 0.3s ease;
+                    margin-left: -30px;
+                    transform: translateY(2px);
+                }
+                input[type="checkbox"]:checked + label::before {
+                    content: '';
+                    width: 20px;
+                    height: 20px;
+                    background-image: url(../icons/check.svg);
+                    background-size: 100%;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+                &__text {
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: #131313;
+                    cursor: pointer;
+                    padding-left: 30px;
+                    a {
+                        color: #2F9D32;
+                        transition: 0.3s ease;
+                        font-weight: 500;
+                        font-size: 14px;
+                        &:hover {
+                            color: #131313;
+                        }
+                    }
+                }
+            }
+            &__btn {
+                width: 100%;
+                font-size: 16px;
+                font-weight: 500;
+                background-color: #2F9D32;
+                color: #fff;
+                text-transform: uppercase;
+                border-radius: 20px;
+                padding: 14px 30px;
+                text-align: center;
+                margin-top: 30px;
+                border: 1px solid #2F9D32;
+                cursor: pointer;
+                transition: 0.3s ease;
+                &:hover {
+                    opacity: 0.95;
+                }
+            }
+        }
+    }
+}

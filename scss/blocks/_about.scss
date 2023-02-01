@@ -1,0 +1,91 @@
+.about {
+    padding-top: 130px;
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        &__title {
+            font-size: 32px;
+            color: #131313;
+            font-family: 'FuturaBookC-Regular';
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+        &__content {
+            width: 790px;
+            position: relative;
+            display: grid;
+            row-gap: 25px;
+            grid-column-gap: 30px;
+            &__title {
+                text-transform: uppercase;
+                font-size: 21px;
+                font-weight: 500;
+                color: #131313;
+                grid-column-start: 1;
+                grid-column-end: 3;
+                span {
+                    font-weight: 500;
+                    color: #2F9D32;
+                }
+            }
+            &__paragraph {
+                font-size: 16px;
+                font-weight: 500;
+                color: #4E5461;
+                width: 380px;
+                display: grid;
+                &:nth-child(2) {
+                    grid-column-start: 1;
+                    grid-column-end: 1;
+                }   
+                &:nth-child(3) {
+                    grid-column-start: 2;
+                    grid-column-end: 2;
+                }   
+            }
+            &__btn {
+                position: relative;
+                width: max-content;
+                display: block;
+                grid-column-start: 2;
+                transition: 0.3s ease;
+                &:hover .about__wrap__content__btn__contain__icon {
+                    transform: rotate(45deg);
+                }
+                &:hover::after {
+                    width: 0;
+                }
+                &::after {
+                    content: "";
+                    display: block;
+                    width: 100%;
+                    height: 1px;
+                    background-color: #131313;
+                    margin-top: 3px;
+                    transition: 0.9s ease;
+                }
+                &__contain {
+                    display: flex;
+                    align-items: center;
+                    &__text {
+                        font-size: 16px;
+                        font-weight: 600;
+                        color: #131313;
+                        text-transform: uppercase;
+                        margin-right: 10px;
+                    }
+                    &__icon {
+                        width: 12px;
+                        height: 12px;
+                        transition: 0.9s ease;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.about-page {
+    padding-top: 240px;
+}

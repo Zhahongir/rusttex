@@ -1,0 +1,148 @@
+@media screen and (max-width: 767px) {
+    .container {
+        width: 540px;
+    }
+
+    .header__wrap__content__callback {
+        display: none;
+    }
+
+    .promo__wrap__content__title {
+        font-size: 38px;
+    }
+
+    .promo__wrap__content__description {
+        width: 100%;
+    }
+
+    .promo__wrap {
+        padding: 90px 30px 50px 30px;
+    }
+
+    .promo__wrap__content__description {
+        font-size: 18px;
+    }
+
+    .promo__wrap__image {
+        width: 430px;
+        height: 295px;
+        margin-top: 20px;
+    }
+
+    .products__wrap {
+        grid-template: 1fr / 400px;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .products__wrap__item {
+        width: 400px;
+    }
+
+    .products__title {
+        text-align: center;
+    }
+
+    .contacts__wrap__content {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .contacts__wrap__content__media__list {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .footer__wrap {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer__wrap__contacts {
+        margin-top: 30px;
+    }
+
+    .footer__wrap__media {
+        margin-top: 20px;
+    }
+
+    .footer__wrap__media__list {
+        display: flex;
+        align-items: center;
+    }
+
+    .footer__wrap__media__list__item:not(:last-child) {
+        margin-bottom: 0;
+        margin-right: 30px;
+    }
+ 
+    .footer__wrap__media__address {
+        text-align: center;
+    }
+
+    .header__wrap__content__media {
+        margin-right: 20px;
+    }
+
+    .menu {
+        width: 60%;
+    }
+
+    .menu__inner__wrap__btn {
+        display: block;
+    }
+
+    .header__wrap__content__media__item {
+        margin-right: 15px;
+    }
+
+    .callback__wrap {
+        width: 90%;
+    }
+
+    .callback__wrap__close {
+        right: 5px;
+        top: 5px;
+    }
+
+    .callback__wrap__content {
+        overflow: hidden;
+    }
+
+    .contacts__wrap__content__phones__list__item__link {
+        font-size: 19px;
+    }
+
+    .generation__difference__signs__info {
+        padding: 35px 25px 50px 25px;
+    }
+
+    .generation__difference__signs__info__list__item__text {
+        width: 420px;
+    }
+
+    .generation__difference__adv__info {
+        padding: 35px 25px 50px 25px;
+    }
+
+    .generation__difference__adv__info__list__item__text {
+        width: 420px;
+    }
+
+    .privacy__title {
+        font-size: 22px;
+    }
+
+    .thanks__wrap__icon {
+        width: 80px;
+        height: 80px;
+    }
+
+    .thanks__wrap {
+        width: 100%;
+    }
+
+}

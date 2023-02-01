@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rusttex</title>
+
+    <link rel="shortcut icon" href="icons/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="icons/favicon.png" type="image/x-icon">
+
+    <!-- OG -->
+    <meta property="og:title" content="Rusttex | Вязальные иглы и системные части" />
+    <meta property="og:description"
+        content="Широкий ассортимент вязальных игл и системных частей для промышленного оборудования." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://rusttex.ru/" />
+    <meta name="robots" content="all">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrap">
+                <a href="index.html" class="header__wrap__logo">
+                    <img src="icons/logo.svg" alt="logo" class="header__wrap__logo__icon">
+                </a>
+                <div class="header__wrap__content">
+                    <div class="header__wrap__content__media">
+                        <a href="https://wa.me/+79219456692" target="_blank" class="header__wrap__content__media__item whatsapp-item">
+                            <img src="icons/whatsapp.svg" alt="whatsapp" class="header__wrap__content__media__item__whatsapp">
+                        </a>
+                        <a href="https://t.me/rusttex" target="_blank" class="header__wrap__content__media__item telegram-item">
+                            <img src="icons/telegram.svg" alt="telegram" class="header__wrap__content__media__item__telegram">
+                        </a>
+                    </div>
+                    <div class="header__wrap__content__phone">
+                        <div class="header__wrap__content__phone__select">
+                            <button class="header__wrap__content__phone__select__btn" aria-expanded="false">
+                                <a href="tel:+79219456692" class="header__wrap__content__phone__select__btn__number">+7 921 945-66-92</a>
+                                <img src="icons/arrow-down.svg" alt="arrow" class="header__wrap__content__phone__select__btn__arrow">
+                            </button>
+                            <div class="header__wrap__content__phone__select__addition" aria-hidden="true">
+                                <a href="tel:+78126220230" class="header__wrap__content__phone__select__addition__number">+7 812 622-02-30</a>
+                            </div>
+                        </div>
+                        <div class="header__wrap__content__phone__description">
+                            <div class="header__wrap__content__phone__description__circle"></div>
+                            <div class="header__wrap__content__phone__description__text">Ежедневно с 10:00 до 18:00</div>
+                        </div>
+                    </div>
+                    <div class="header__wrap__content__callback" data-modal="booking">Обратный звонок</div>
+                    <div class="header__wrap__content__hamburger">
+                        <div class="header__wrap__content__hamburger__item"></div>
+                        <div class="header__wrap__content__hamburger__item"></div>
+                        <div class="header__wrap__content__hamburger__item"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="promo">
+        <div class="container">
+            <div class="promo__wrap">
+                <div class="promo__wrap__content">
+                    <div class="promo__wrap__content__head">
+                        <img src="icons/cup.png" alt="cup" class="promo__wrap__content__head__icon">
+                        <p class="promo__wrap__content__head__text">Лидеры рынка</p>
+                    </div>
+                    <h1 class="promo__wrap__content__title">Вязальные иглы и системные части фирмы <span>GROZ-BECKERT®</span></h1>
+                    <p class="promo__wrap__content__description">Широкий ассортимент вязальных игл и системных частей для&nbsp;промышленного оборудования.</p>
+                    <a href="#products" class="promo__wrap__content__btn">
+                        <div class="promo__wrap__content__btn__contain">
+                            <p class="promo__wrap__content__btn__contain__text">ПЕРЕЙТИ В КАТАЛОГ</p>
+                            <img src="icons/link.svg" alt="icon" class="promo__wrap__content__btn__contain__icon">
+                        </div>
+                    </a>
+                </div>
+                <img src="images/promo.png" alt="promo" class="promo__wrap__image">
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="aboutus">
+        <div class="container">
+            <div class="about__wrap">
+                <h2 class="about__wrap__title">О компании</h2>
+                <div class="about__wrap__content">
+                    <p class="about__wrap__content__title">Наша компания является <span>официальным представителем компании GROZ-BECKERT®</span> и предлагает широкий ассортимент вязальных игл и системных частей (платины, толкатели и т.д.) для промышленного оборудования.</p>
+                    <p class="about__wrap__content__paragraph">GROZ-BECKERT® - Лидер на мировом рынке по производству вязальных игл и&nbsp;системных частей для трикотажных машин.</p>
+                    <p class="about__wrap__content__paragraph">Именно там, где к производительности, надежности и качеству предъявляются самые&nbsp;высокие требования, применяются вязальные иглы и системные части фирмы GROZ-BECKERT®</p>
+                    <a href="about.html" class="about__wrap__content__btn">
+                        <div class="about__wrap__content__btn__contain">
+                            <p class="about__wrap__content__btn__contain__text">читать подробнее</p>
+                            <img src="icons/link-dark.svg" alt="icon" class="about__wrap__content__btn__contain__icon">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <div class="container">
+            <h2 class="products__title">Каталог товаров</h2>
+            <div class="products__wrap">
+                <div class="products__wrap__item">
+                    <div class="products__wrap__item__header">
+                        <img src="images/product-1.webp" alt="product" class="products__wrap__item__header__image">
+                    </div>
+                    <div class="products__wrap__item__info">
+                        <p class="products__wrap__item__info__subtitle">Vo-Spec. 79.85 G022</p>
+                        <h3 class="products__wrap__item__info__name">12 класс - Universal</h3>
+                        <a href="#" class="products__wrap__item__info__btn" data-modal="booking">
+                            <div class="products__wrap__item__info__btn__contain">
+                                <p class="products__wrap__item__info__btn__contain__text">заказать</p>
+                                <img src="icons/link-dark.svg" alt="icon" class="products__wrap__item__info__btn__contain__icon">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="products__wrap__item">
+                    <div class="products__wrap__item__header">
+                        <img src="images/product-2.webp" alt="product" class="products__wrap__item__header__image">
+                    </div>
+                    <div class="products__wrap__item__info">
+                        <p class="products__wrap__item__info__subtitle">Vo-Spec. 110.130-110 G05</p>
+                        <h3 class="products__wrap__item__info__name">5 класс Stoll</h3>
+                        <a href="#" class="products__wrap__item__info__btn" data-modal="booking">
+                            <div class="products__wrap__item__info__btn__contain">
+                                <p class="products__wrap__item__info__btn__contain__text">заказать</p>
+                                <img src="icons/link-dark.svg" alt="icon" class="products__wrap__item__info__btn__contain__icon">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="products__wrap__item">
+                    <div class="products__wrap__item__header">
+                        <img src="images/product-3.webp" alt="product" class="products__wrap__item__header__image">
+                    </div>
+                    <div class="products__wrap__item__info">
+                        <p class="products__wrap__item__info__subtitle">Vo-Spec. 112.88-75 G010</p>
+                        <h3 class="products__wrap__item__info__name">6.2 класс - Stoll</h3>
+                        <a href="#" class="products__wrap__item__info__btn" data-modal="booking">
+                            <div class="products__wrap__item__info__btn__contain">
+                                <p class="products__wrap__item__info__btn__contain__text">заказать</p>
+                                <img src="icons/link-dark.svg" alt="icon" class="products__wrap__item__info__btn__contain__icon">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="products__wrap__item">
+                    <div class="products__wrap__item__header">
+                        <img src="images/product-4.webp" alt="product" class="products__wrap__item__header__image">
+                    </div>
+                    <div class="products__wrap__item__info">
+                        <p class="products__wrap__item__info__subtitle">Vosa-Spec. 89.75-64 G042</p>
+                        <h3 class="products__wrap__item__info__name">12 класс - Shima Seiki</h3>
+                        <a href="#" class="products__wrap__item__info__btn" data-modal="booking">
+                            <div class="products__wrap__item__info__btn__contain">
+                                <p class="products__wrap__item__info__btn__contain__text">заказать</p>
+                                <img src="icons/link-dark.svg" alt="icon" class="products__wrap__item__info__btn__contain__icon">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="products__wrap__item">
+                    <div class="products__wrap__item__header">
+                        <img src="images/product-5.webp" alt="product" class="products__wrap__item__header__image">
+                    </div>
+                    <div class="products__wrap__item__info">
+                        <p class="products__wrap__item__info__subtitle">Vosa-Spec. 89.75-64 G044</p>
+                        <h3 class="products__wrap__item__info__name">12 класс - Shima Seiki</h3>
+                        <a href="#" class="products__wrap__item__info__btn" data-modal="booking">
+                            <div class="products__wrap__item__info__btn__contain">
+                                <p class="products__wrap__item__info__btn__contain__text">заказать</p>
+                                <img src="icons/link-dark.svg" alt="icon" class="products__wrap__item__info__btn__contain__icon">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="products__wrap__item">
+                    <div class="products__wrap__item__header">
+                        <img src="images/product-6.webp" alt="product" class="products__wrap__item__header__image">
+                    </div>
+                    <div class="products__wrap__item__info">
+                        <p class="products__wrap__item__info__subtitle">Vosa-Spec. 89.90-70 G07</p>
+                        <h3 class="products__wrap__item__info__name">10 класс - Shima Seiki / Sixing</h3>
+                        <a href="#" class="products__wrap__item__info__btn" data-modal="booking">
+                            <div class="products__wrap__item__info__btn__contain">
+                                <p class="products__wrap__item__info__btn__contain__text">заказать</p>
+                                <img src="icons/link-dark.svg" alt="icon" class="products__wrap__item__info__btn__contain__icon">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="products__wrap__item">
+                    <div class="products__wrap__item__header">
+                        <img src="images/product-7.webp" alt="product" class="products__wrap__item__header__image">
+                    </div>
+                    <div class="products__wrap__item__info">
+                        <p class="products__wrap__item__info__subtitle">SN-M 81.198-170 G1</p>
+                        <h3 class="products__wrap__item__info__name">3 класс - Shima-Seiki</h3>
+                        <a href="#" class="products__wrap__item__info__btn" data-modal="booking">
+                            <div class="products__wrap__item__info__btn__contain">
+                                <p class="products__wrap__item__info__btn__contain__text">заказать</p>
+                                <img src="icons/link-dark.svg" alt="icon" class="products__wrap__item__info__btn__contain__icon">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="products__wrap__item">
+                    <div class="products__wrap__item__header">
+                        <img src="images/product-8.webp" alt="product" class="products__wrap__item__header__image">
+                    </div>
+                    <div class="products__wrap__item__info">
+                        <p class="products__wrap__item__info__subtitle">Vo-Spec. 79.75 G014</p>
+                        <h3 class="products__wrap__item__info__name">14 класс - Protti/ Rimach</h3>
+                        <a href="#" class="products__wrap__item__info__btn" data-modal="booking">
+                            <div class="products__wrap__item__info__btn__contain">
+                                <p class="products__wrap__item__info__btn__contain__text">заказать</p>
+                                <img src="icons/link-dark.svg" alt="icon" class="products__wrap__item__info__btn__contain__icon">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="products__wrap__item">
+                    <div class="products__wrap__item__header">
+                        <img src="images/product-9.webp" alt="product" class="products__wrap__item__header__image">
+                    </div>
+                    <div class="products__wrap__item__info">
+                        <p class="products__wrap__item__info__subtitle">Vo-Spec. 110.130-110 G018</p>
+                        <h3 class="products__wrap__item__info__name">4 класс - Stoll</h3>
+                        <a href="#" class="products__wrap__item__info__btn" data-modal="booking">
+                            <div class="products__wrap__item__info__btn__contain">
+                                <p class="products__wrap__item__info__btn__contain__text">заказать</p>
+                                <img src="icons/link-dark.svg" alt="icon" class="products__wrap__item__info__btn__contain__icon">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="products__wrap__item">
+                    <div class="products__wrap__item__header">
+                        <img src="images/product-10.webp" alt="product" class="products__wrap__item__header__image">
+                    </div>
+                    <div class="products__wrap__item__info">
+                        <p class="products__wrap__item__info__subtitle">VOSA-SPEC. 89.150-94 T05</p>
+                        <h3 class="products__wrap__item__info__name">7 класс - Shima Seiki</h3>
+                        <a href="#" class="products__wrap__item__info__btn" data-modal="booking">
+                            <div class="products__wrap__item__info__btn__contain">
+                                <p class="products__wrap__item__info__btn__contain__text">заказать</p>
+                                <img src="icons/link-dark.svg" alt="icon" class="products__wrap__item__info__btn__contain__icon">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="products__wrap__item">
+                    <div class="products__wrap__item__header">
+                        <img src="images/product-11.webp" alt="product" class="products__wrap__item__header__image">
+                    </div>
+                    <div class="products__wrap__item__info">
+                        <p class="products__wrap__item__info__subtitle">Vo-Spec. 111.130-100 G04</p>
+                        <h3 class="products__wrap__item__info__name">7 класс - Stoll</h3>
+                        <a href="#" class="products__wrap__item__info__btn" data-modal="booking">
+                            <div class="products__wrap__item__info__btn__contain">
+                                <p class="products__wrap__item__info__btn__contain__text">заказать</p>
+                                <img src="icons/link-dark.svg" alt="icon" class="products__wrap__item__info__btn__contain__icon">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="products__wrap__item">
+                    <div class="products__wrap__item__header">
+                        <img src="images/product-12.webp" alt="product" class="products__wrap__item__header__image">
+                    </div>
+                    <div class="products__wrap__item__info">
+                        <p class="products__wrap__item__info__subtitle">Vo-Spec. 112.88-75 G010</p>
+                        <h3 class="products__wrap__item__info__name">10 класс - Stoll</h3>
+                        <a href="#" class="products__wrap__item__info__btn" data-modal="booking">
+                            <div class="products__wrap__item__info__btn__contain">
+                                <p class="products__wrap__item__info__btn__contain__text">заказать</p>
+                                <img src="icons/link-dark.svg" alt="icon" class="products__wrap__item__info__btn__contain__icon">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="products__wrap__item">
+                    <div class="products__wrap__item__header">
+                        <img src="images/product-13.webp" alt="product" class="products__wrap__item__header__image">
+                    </div>
+                    <div class="products__wrap__item__info">
+                        <p class="products__wrap__item__info__subtitle">VO-Spec. 112.88-68 G05</p>
+                        <h3 class="products__wrap__item__info__name">12 класс - Stoll</h3>
+                        <a href="#" class="products__wrap__item__info__btn" data-modal="booking">
+                            <div class="products__wrap__item__info__btn__contain">
+                                <p class="products__wrap__item__info__btn__contain__text">заказать</p>
+                                <img src="icons/link-dark.svg" alt="icon" class="products__wrap__item__info__btn__contain__icon">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <div class="contacts__wrap">
+                <h2 class="contacts__wrap__title">Наши контакты</h2>
+                <div class="contacts__wrap__content">
+                    <div class="contacts__wrap__content__address">
+                        <h4 class="contacts__wrap__content__address__title contacts__item__title">Адрес:</h4>
+                        <p class="contacts__wrap__content__address__text">г. Санкт-Петербург, <br> Средний пр-т В.О., д. 48, офис 106</p>
+                    </div>
+                    <div class="contacts__wrap__content__phones">
+                        <h4 class="contacts__wrap__content__phones__title contacts__item__title">Телефон:</h4>
+                        <ul class="contacts__wrap__content__phones__list">
+                            <li class="contacts__wrap__content__phones__list__item"><a href="tel:+79219456692" class="contacts__wrap__content__phones__list__item__link">+7 921 945-66-92</a></li>
+                            <li class="contacts__wrap__content__phones__list__item"><a href="tel:+78126220230" class="contacts__wrap__content__phones__list__item__link">+7 812 622-02-30</a></li>
+                        </ul>
+                    </div>
+                    <div class="contacts__wrap__content__email">
+                        <h4 class="contacts__wrap__content__email__title contacts__item__title">E-mail:</h4>
+                        <a href="mailto:needl@rusttex.ru" class="contacts__wrap__content__email__link">needl@rusttex.ru</a>
+                    </div>
+                    <div class="contacts__wrap__content__media">
+                        <h4 class="contacts__wrap__content__media__title contacts__item__title">Мессенджеры</h4>
+                        <ul class="contacts__wrap__content__media__list">
+                            <li class="contacts__wrap__content__media__list__item">
+                                <a href="https://wa.me/+79219456692" target="_blank" class="contacts__wrap__content__media__list__item__link contacts__whatsapp">
+                                    <div class="contacts__wrap__content__media__list__item__link__contain">
+                                        <p class="contacts__wrap__content__media__list__item__link__contain__text contacts__whatsapp__title">WhatsApp</p>
+                                        <img src="icons/link-dark.svg" alt="icon" class="contacts__wrap__content__media__list__item__link__contain__icon">
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="contacts__wrap__content__media__list__item">
+                                <a href="https://t.me/rusttex" target="_blank" class="contacts__wrap__content__media__list__item__link contacts__telegram">
+                                    <div class="contacts__wrap__content__media__list__item__link__contain">
+                                        <p class="contacts__wrap__content__media__list__item__link__contain__text contacts__telegram__title">Telegram</p>
+                                        <img src="icons/link-dark.svg" alt="icon" class="contacts__wrap__content__media__list__item__link__contain__icon">
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A3150ca0be7903591551684125d9c7494093180a507e3e6035b1064d5c4e50ad0&amp;source=constructor" width="100%" height="500" frameborder="0"></iframe>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrap">
+                <a href="index.html" class="footer__wrap__logo">
+                    <img src="icons/logo-footer.svg" alt="logo" class="footer__wrap__logo__icon">
+                </a>
+                <div class="footer__wrap__contacts">
+                    <a href="tel:+79219456692" class="footer__wrap__contacts__link">+7 921 945-66-92</a>
+                    <a href="tel:+78126220230" class="footer__wrap__contacts__link">+7 812 622-02-30</a>
+                    <a href="mailto:needl@rusttex.ru" class="footer__wrap__contacts__link">needl@rusttex.ru</a>
+                    <p class="footer__wrap__contacts__work">Ежедневно с 10:00 до 18:00</p>
+                </div>
+                <div class="footer__wrap__media">
+                    <ul class="footer__wrap__media__list">
+                        <li class="footer__wrap__media__list__item">
+                            <a href="https://wa.me/+79219456692" target="_blank" class="footer__wrap__media__list__item__link">
+                                <div class="footer__wrap__media__list__item__link__contain">
+                                    <p class="footer__wrap__media__list__item__link__contain__text">WhatsApp</p>
+                                    <img src="icons/link.svg" alt="icon" class="footer__wrap__media__list__item__link__contain__icon">
+                                </div>
+                            </a>
+                        </li>
+                        <li class="footer__wrap__media__list__item">
+                            <a href="https://t.me/rusttex" target="_blank" class="footer__wrap__media__list__item__link">
+                                <div class="footer__wrap__media__list__item__link__contain">
+                                    <p class="footer__wrap__media__list__item__link__contain__text">Telegram</p>
+                                    <img src="icons/link.svg" alt="icon" class="footer__wrap__media__list__item__link__contain__icon">
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="footer__wrap__media__address">г. Санкт-Петербург, <br> Средний пр-т В.О., д. 48, офис 106</p>
+                </div>
+            </div>
+            <div class="footer__divider"></div>
+            <div class="footer__inner">
+                <p class="footer__inner__copyright">© 2023 RustTex. Все права защищены.</p>
+                <a href="privacy.html" class="footer__inner__privacy">Политика конфиденциальности</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Menu -->
+    <div class="bg-menu"></div>
+
+    <div class="menu">
+        <div class="menu__inner">
+            <div class="menu__inner__close">
+                <img src="icons/close.svg" alt="close" class="menu__inner__close__icon">
+            </div>
+            <div class="menu__inner__wrap">
+                <div class="menu__inner__wrap__header">
+                    <div class="menu__inner__wrap__header__circle"></div>
+                    <p class="menu__inner__wrap__header__title">Навигация по сайту</p>
+                </div>
+                <ul class="menu__inner__wrap__list">
+                    <li class="menu__inner__wrap__list__item">
+                        <a href="#aboutus" class="menu__inner__wrap__list__item__link">О нашей компании</a>
+                    </li>
+                    <li class="menu__inner__wrap__list__item">
+                        <a href="#products" class="menu__inner__wrap__list__item__link">Каталог товаров</a>
+                    </li>
+                    <li class="menu__inner__wrap__list__item">
+                        <a href="#contacts" class="menu__inner__wrap__list__item__link">Контакты</a>
+                    </li>
+                </ul>
+                <ul class="menu__inner__wrap__phones">
+                    <li class="menu__inner__wrap__phones__item">
+                        <a href="tel:+79219456692" class="menu__inner__wrap__phones__item__link">+7 921 945-66-92</a>
+                    </li>
+                    <li class="menu__inner__wrap__phones__item">
+                        <a href="tel:+78126220230" class="menu__inner__wrap__phones__item__link">+7 812 622-02-30</a>
+                    </li>
+                </ul>
+                <p class="menu__inner__wrap__work">Ежедневно с 10:00 до 18:00</p>
+                <div class="menu__inner__wrap__btn" data-modal="booking">Обратный звонок</div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="callback" id="callback"> 
+        <div class="callback__wrap">
+            <div class="callback__wrap__close">
+                <img src="icons/close.svg" alt="icon" class="callback__wrap__close__icon">
+            </div>
+            <div class="callback__wrap__content">
+                <h5 class="callback__wrap__title">Оставить заявку</h5>
+            <p class="callback__wrap__subtitle">Заполните форму и&nbsp;наш специалист позвонит в&nbsp;течение нескольких минут для уточнения деталей!</p>
+            <form action="#" class="callback__wrap__form">
+                <div class="callback__wrap__form__item">
+                    <label for="name" class="callback__wrap__form__item__label">Ваше имя:</label>
+                    <input type="text" id="name" class="callback__wrap__form__item__input" placeholder="Иван">
+                </div>
+                <!-- <div class="callback__wrap__form__item">
+                    <label for="surname" class="callback__wrap__form__item__label">Ваша фамилия:</label>
+                    <input type="text" id="surname" class="callback__wrap__form__item__input" placeholder="Иванов">
+                </div> -->
+                <div class="callback__wrap__form__item">
+                    <label for="phone" class="callback__wrap__form__item__label">Номер телефона:</label>
+                    <input type="text" id="phone" class="callback__wrap__form__item__input" placeholder="+7 999 999-99-99">
+                </div>
+                <div class="callback__wrap__form__privacy">
+                    <input type="checkbox" checked id="checkbox" class="callback__wrap__form__privacy__checkbox">
+                    <label for="checkbox" class="callback__wrap__form__privacy__text">Нажимая кнопку «Отправить заявку», Вы подтверждайте, что ознакомились с&nbsp;<a href="privacy.html" target="_blank">политикой конфиденциальности</a> и принимайте их.</label>
+                </div>
+                <button type="submit" class="callback__wrap__form__btn">Отправить заявку</button>
+            </form>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+    <script src="js/script.js"></script>
+    <script src="js/anchor.js"></script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+.contacts {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    &__wrap {
+        border-radius: 20px;
+        background-color: #F3F5F9;
+        border-radius: 20px;
+        padding: 60px 50px 50px 50px;
+        iframe {
+            margin-top: 40px;
+        }
+        &__title {
+            font-size: 32px;
+            color: #131313;
+            font-family: 'FuturaBookC-Regular';
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+        &__content {
+            margin-top: 40px;
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            .contacts__item__title {
+                font-size: 22px;
+                font-weight: 500;
+                color: #131313;
+                margin-bottom: 10px;
+            }
+            &__address {
+                &__text {
+                    font-size: 17px;
+                    font-weight: 500;
+                    color: #131313;
+                    display: block;
+                }
+            }
+            &__phones {
+                &__list {
+                    &__item {
+                        &__link {
+                            font-size: 18px;
+                            font-weight: 500;
+                            color: #131313;
+                            transition: 0.3s ease;
+                            &:hover {
+                                color: #2F9D32;
+                            }
+                        }
+                        &:not(:last-child) {
+                            margin-bottom: 5px;
+                        }
+                    }
+                }
+            }
+            &__email {
+                &__link {
+                    font-size: 18px;
+                    font-weight: 500;
+                    color: #131313;
+                    transition: 0.3s ease;
+                    &:hover {
+                        color: #2F9D32;
+                    }
+                }
+            }
+            &__media {
+                &__list {
+                    width: 260px;
+                    display: flex;
+                    justify-content: space-between;
+                    &__item {
+                        .contacts__whatsapp {
+                            transition: 0.3s ease;
+                            color: #131313;
+                            &:hover {
+                                color: #48C95F;
+                            }
+                            &:hover::after {
+                                width: 0;
+                            }
+                            &::after {
+                                content: "";
+                                display: block;
+                                width: 100%;
+                                height: 1px;
+                                background-color: #48C95F;
+                                margin-top: 3px;
+                                transition: 0.9s ease;
+                            }
+                        }
+                        .contacts__telegram {
+                            transition: 0.3s ease;
+                            color: #131313;
+                            &:hover {
+                                color: #27A6E5;
+                            }
+                            &:hover::after {
+                                width: 0;
+                            }
+                            &::after {
+                                content: "";
+                                display: block;
+                                width: 100%;
+                                height: 1px;
+                                background-color: #27A6E5;
+                                margin-top: 3px;
+                                transition: 0.9s ease;
+                            }
+                        }
+                        &__link {
+                            width: max-content;
+                            display: block;
+                            &:hover .contacts__wrap__content__media__list__item__link__contain__icon {
+                                transform: rotate(45deg);
+                            }
+                            &__contain {
+                                display: flex;
+                                align-items: center;
+                                &__text {
+                                    font-size: 18px;
+                                    font-weight: 500;
+                                    margin-right: 10px;
+                                    transition: 0.3s ease;
+                                }
+                                &__icon {
+                                    width: 12px;
+                                    height: 12px;
+                                    transition: 0.9s ease;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
